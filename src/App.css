@@ -1,0 +1,8 @@
+.notesbrand{
+    color: lightgreen;
+    font-size: 2rem;
+    text-shadow: 3px 3px 0px rgba(13, 231, 195, 0.726),4px 4px 0px rgba(124, 230, 120, 0.5) ;
+    text-transform: uppercase;
+    position: relative;
+    
+}
