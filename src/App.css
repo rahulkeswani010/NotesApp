@@ -6,3 +6,9 @@
     position: relative;
     
 }
+.card {
+    max-width: 100%;
+}
+.card-text {
+    word-wrap: break-word;
+}

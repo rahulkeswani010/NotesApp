@@ -49,8 +49,7 @@ function ShowNotes() {
             <div className="card rounded" style={{width: "18rem"}}>
             <div className="card-body">
               <p className="card-text text-justify" style={{fontSize:"1.2em"}}>{note.text}</p>
-              <button className="btn btn-outline-danger float-right" onClick={()=>deleteHandler(note.id)}><i className="fa fa-trash" aria-hidden="true"></i></button>
-              
+              <button className="btn btn-outline-danger" onClick={()=>deleteHandler(note.id)}>Delete Note</button>
             </div>
           
           </div>

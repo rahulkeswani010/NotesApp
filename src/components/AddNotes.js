@@ -26,7 +26,7 @@ function AddNotes() {
     })
   }
 const style={
-  fontSize:"1.2rem"
+  fontSize:"1.2rem",
 }
   return (
     <form onSubmit={e=>submitHandler(e)}>
